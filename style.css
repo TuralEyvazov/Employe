@@ -1,0 +1,151 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    --font: 'Montserrat',
+        sans-serif;
+    background-color: #EDf2f4;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 75%;
+    margin: 100px auto auto auto;
+    font-family: var(--font);
+}
+
+.add-employe {
+    max-width: 1032px;
+    height: 185px;
+    border-radius: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font);
+    background-color: white;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+form {
+    width: 1032px;
+    height: 100%;
+    padding: 0 110px;
+    font-family: var(--font);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.inputs input {
+    font-family: var(--font);
+    outline: none;
+    height: 47px;
+    width: 240px;
+    padding: 0 12px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    text-transform: capitalize;
+}
+
+.input-btn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-btn button {
+    margin-left: 30px;
+    width: 148px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    font-family: var(--font);
+    background-color: #023E8A;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+.list-employe {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: 860px;
+    background-color: white;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+table tr th {
+    background-color: #023E8A;
+    color: white;
+}
+
+table tr {
+    height: 56px;
+    text-transform: capitalize;
+}
+
+tbody td {
+    text-align: center;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #CCD8D2;
+}
+
+
+ul {
+    padding: 15px;
+    width: 290px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+li {
+    display: flex;
+    margin-bottom: 14px;
+    justify-content: space-between;
+}
+
+.check-box input {
+    margin-right: 14px;
+
+}
+
+.check-box {
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+.check-list-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.delete-btn {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
